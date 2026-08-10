@@ -95,6 +95,15 @@ h3 { font-size: 1.15rem; margin: 18px 0 8px; color: var(--purple-700); }
 
 .btn:hover { background: var(--purple-900); text-decoration: none; }
 
+.btn-secondary {
+  background: transparent;
+  color: var(--purple-700);
+  border: 1.5px solid var(--purple-700);
+  margin-left: 8px;
+}
+
+.btn-secondary:hover { background: var(--purple-700); color: #fff; }
+
 .app-hero { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
 
 .app-hero .info { flex: 1 1 320px; }
